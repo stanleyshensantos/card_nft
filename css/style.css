@@ -19,7 +19,25 @@ body{
     border-radius: 20px;
     margin: 30px;
 }
-
+.texto-geral{
+    padding-left: 30px;
+    color:#FFFFFF
+}
 .title{
     color: #FFFFFF;
 }
+.informacoes{
+    display: grid;
+    grid-template-rows: auto;
+}
+.avatar{
+  height: 30px;
+  width: 30px;
+}
+.avatar-conteudo{
+    display: flex;
+}
+.rodape_card{
+   
+}
+
