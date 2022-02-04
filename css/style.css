@@ -38,6 +38,7 @@ body{
     display: flex;
 }
 .rodape_card{
-   
+   display: flex;
+   align-items: center;
 }
 
