@@ -1,42 +1,49 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Elsie+Swash+Caps:wght@900&family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400&family=Outfit:wght@600&display=swap"
+    rel="stylesheet">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="css/style.css">
-  
+
   <title>Frontend Mentor | NFT preview card component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
-<body>
-<main class="content">
-  <section class="card">
-    
-     <img src="images/image-equilibrium.jpg" alt="imagem do banner" class="banner__imagem">
-    <div class="texto-geral">
-      <h2 class="title">Equilibrium #3429</h2>
 
-      <p class="conteudo_info">Our Equilibrium collection promotes <br>balance and calm.</p>
-      <div class="informacoes">   
-        <p class="info_1"> <img src="images/icon-ethereum.svg" alt=""> 0.041 ETH</p>
-        <p class="info_2"> <img src="images/icon-clock.svg" alt=""> days left</p>
-      </div>
+<body>
+  <main class="content">
+    <section class="card">
+      <div class="card_img">
+      <img src="images/image-equilibrium.jpg" alt="imagem do banner" class="banner__imagem">
       <div>
-        <div class="avata-conteudo">
-          <p class="rodape_card"><img src="images/image-avatar.png" alt="" class="avatar"> Creation of Jules Wyvern</p>
-          
+        <img src="images/icon-view.svg" alt="">
+      </div>
+    </div>
+      <div class="texto-geral">
+        <h2 class="title">Equilibrium #3429</h2>
+        <div class="conteudo_info">
+          <p>Our Equilibrium collection promotes <br>balance and calm.</p>
+        </div>
+        <div class="informacoes">
+          <div class="info_1"> <img src="images/icon-ethereum.svg" alt=""><span>0.041 ETH</span></div>
+          <div class="info_2"> <img src="images/icon-clock.svg" alt=""><span> days left</span></div>
+        </div>
+        <div>
+          <div class="avatar-conteudo">
+            <img src="images/image-avatar.png" alt="" class="avatar">
+             Creation of 
+             <span> Jules Wyvern </span>
+          </div>
         </div>
       </div>
-     </div>
-  </section>
-</main>
-  
+    </section>
+  </main>
+
 </body>
+
 </html>
